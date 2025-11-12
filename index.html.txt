@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>LumeSkin — Estética e Cuidados</title>
+  <meta name="description" content="Clínica de estética — protocolos, reconstrução de sobrancelhas, clareamento íntimo e muito mais." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="#">LumeSkin</a>
+      <nav class="nav" id="nav">
+        <a href="#servicos">Serviços</a>
+        <a href="#antes-depois">Antes & Depois</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <button id="menuBtn" class="menu-btn">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Beleza que transforma</h1>
+        <p>Protocolos personalizados para elevar sua autoestima.</p>
+        <a class="btn" href="#contato">Agende sua avaliação</a>
+      </div>
+    </section>
+
+    <section id="servicos" class="container cards">
+      <h2>Serviços</h2>
+      <div class="card-grid">
+        <article class="card">
+          <h3>Reconstrução de sobrancelhas</h3>
+          <p>Protocolo Renaissance Fios — resultado natural.</p>
+        </article>
+        <article class="card">
+          <h3>Clareamento íntimo</h3>
+          <p>Atendimento com segurança e protocolo completo.</p>
+        </article>
+        <article class="card">
+          <h3>Tratamentos capilares</h3>
+          <p>Recuperação de fios e fortalecimento.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="antes-depois" class="container gallery">
+      <h2>Antes & Depois</h2>
+      <div class="gallery-grid">
+        <img alt="antes depois 1" src="images/antes1.jpg">
+        <img alt="antes depois 2" src="images/depois1.jpg">
+        <img alt="antes depois 3" src="images/depois2.jpg">
+      </div>
+    </section>
+
+    <section id="sobre" class="container about">
+      <h2>Sobre mim</h2>
+      <div class="about-grid">
+        <img src="images/perfil.jpg" alt="Foto da esteticista">
+        <div>
+          <h3>Damaris Lima — Esteticista</h3>
+          <p>Sou esteticista especializada em procedimentos que recuperam a autoestima. Atendimento humanizado e resultados comprovados.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="container contact">
+      <h2>Contato</h2>
+      <form id="contactForm">
+        <label>Nome<input type="text" name="nome" required></label>
+        <label>Telefone<input type="tel" name="telefone"></label>
+        <label>Mensagem<textarea name="mensagem" required></textarea></label>
+        <button class="btn" type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="ano"></span> LumeSkin — Todos os direitos reservados</p>
+      <div class="socials">Instagram • WhatsApp</div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

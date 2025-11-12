@@ -1,0 +1,18 @@
+// menu mobile
+const menuBtn = document.getElementById('menuBtn');
+const nav = document.getElementById('nav');
+menuBtn && menuBtn.addEventListener('click', () => {
+  nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex';
+  nav.style.flexDirection = 'column';
+});
+
+// ano do rodapé
+document.getElementById('ano').textContent = new Date().getFullYear();
+
+// simulação de envio do form (substitua por fetch para backend)
+const form = document.getElementById('contactForm');
+form && form.addEventListener('submit', e => {
+  e.preventDefault();
+  alert('Mensagem enviada! Em breve entrarei em contato.');
+  form.reset();
+});
